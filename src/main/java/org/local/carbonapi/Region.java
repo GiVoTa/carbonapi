@@ -1,7 +1,6 @@
 package org.local.carbonapi;
 
 import java.util.*;
-import java.lang.*;
 
 public class Region {
     int forecast;
@@ -18,7 +17,7 @@ public class Region {
     }
 }
 
-class Sortbyforecast implements Comparator<Region> {
+class sortByForecast implements Comparator<Region> {
     public int compare (Region a, Region b) {
         return b.forecast - a.forecast;
     }
