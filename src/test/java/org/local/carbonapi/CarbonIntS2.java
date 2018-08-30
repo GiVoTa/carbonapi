@@ -12,7 +12,6 @@ import java.util.Arrays;
 import static io.restassured.RestAssured.*;
 import static io.restassured.http.ContentType.JSON;
 import static org.junit.Assert.*;
-import static org.hamcrest.Matchers.*;
 
 @RunWith(Parameterized.class)
 public class CarbonIntS2 {
